@@ -5,6 +5,8 @@ Here we can see an xml from the State Meteorological Agency - AEMET. Government 
 
 ## Proyect XML
 
+XSL-> https://github.com/SergioPA11/Playita/blob/master/Playita.xsl
+
 ## Link Original
 Link -> http://www.aemet.es/xml/playas/play_v2_3501402.xml
 
