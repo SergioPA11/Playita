@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<predictions>
+    <prediction>
+        <day>20200403</day>
+        <sky_state>
+            <f1>120</f1>
+            <descripcion1>muy nuboso</descripcion1>
+            <f2>100</f2>
+            <descripcion2>despejado</descripcion2>
+        </sky_state>
+        <wind>
+            <f1>210</f1>
+            <descripcion1>flojo</descripcion1>
+            <f2>210</f2>
+            <descripcion2>flojo</descripcion2>
+        </wind>
+        <surge>
+            <f1>310</f1>
+            <descripcion1>débil</descripcion1>
+            <f2>310</f2>
+            <descripcion2>débil</descripcion2>
+        </surge>
+        <t_max/>
+        <s_thermal>
+            <f1>310</f1>
+            <descripcion1>suave</descripcion1>
+        </s_thermal>
+        <t_water/>
+        <uv_max/>
+    </prediction>
+    <prediction>
+        <day>20200404</day>
+        <sky_state>
+            <f1>120</f1>
+            <descripcion1>muy nuboso</descripcion1>
+            <f2>110</f2>
+            <descripcion2>nuboso</descripcion2>
+        </sky_state>
+        <wind>
+            <f1>210</f1>
+            <descripcion1>flojo</descripcion1>
+            <f2>210</f2>
+            <descripcion2>flojo</descripcion2>
+        </wind>
+        <surge>
+            <f1>310</f1>
+            <descripcion1>débil</descripcion1>
+            <f2>310</f2>
+            <descripcion2>débil</descripcion2>
+        </surge>
+        <t_max/>
+        <s_thermal>
+            <f1>310</f1>
+            <descripcion1>suave</descripcion1>
+        </s_thermal>
+        <t_water/>
+        <uv_max/>
+    </prediction>
+    <prediction>
+        <day>20200405</day>
+        <sky_state>
+            <f1>120</f1>
+            <descripcion1>muy nuboso</descripcion1>
+            <f2>120</f2>
+            <descripcion2>muy nuboso</descripcion2>
+        </sky_state>
+        <wind>
+            <f1>210</f1>
+            <descripcion1>flojo</descripcion1>
+            <f2>220</f2>
+            <descripcion2>moderado</descripcion2>
+        </wind>
+        <surge>
+            <f1>310</f1>
+            <descripcion1>débil</descripcion1>
+            <f2>310</f2>
+            <descripcion2>débil</descripcion2>
+        </surge>
+        <t_max/>
+        <s_thermal>
+            <f1>310</f1>
+            <descripcion1>suave</descripcion1>
+        </s_thermal>
+        <t_water/>
+        <uv_max/>
+    </prediction>
+</predictions>
