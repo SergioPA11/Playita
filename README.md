@@ -6,7 +6,7 @@ Here we can see an xml from the State Meteorological Agency - AEMET. Government 
 ## Proyect XML
 XML-> https://github.com/SergioPA11/Playita/blob/master/Playita.xml
 XSL-> https://github.com/SergioPA11/Playita/blob/master/Playita.xsl
-
+XML Transformation-> https://github.com/SergioPA11/Playita/blob/master/Playita_output.xml
 ## Link Original
 Link -> http://www.aemet.es/xml/playas/play_v2_3501402.xml
 
