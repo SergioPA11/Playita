@@ -2,9 +2,13 @@
 Weather forecast at Corralejo Beach in Fuerteventura
 
 Here we can see an xml from the State Meteorological Agency - AEMET. Government of Spain, where it will tell us the forecast of that specific beach weather in the next 3 days
+
 The next 3 days:
+
 2020/04/03
+
 2020/04/04
+
 2020/04/05
 
 ## Proyect XML
