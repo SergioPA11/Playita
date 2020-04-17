@@ -11,10 +11,16 @@ The next 3 days:
 
 2020/04/05
 
-## Proyect XML
+## VERSION 1 Proyect XML
 XML-> https://github.com/SergioPA11/Playita/blob/master/Playita.xml
 
 XSL-> https://github.com/SergioPA11/Playita/blob/master/Playita.xsl
+
+## VERSION 2 Proyect XML
+XSL -> https://github.com/SergioPA11/Playita/blob/master/stylesheet_playita.xsl
+<In the transformation it does not capture the complete code>
+
+XSD -> https://github.com/SergioPA11/Playita/blob/master/XmlSchema_playita.xsd
 
 XML Transformation-> https://github.com/SergioPA11/Playita/blob/master/Playita_output.xml
 ## Link Original
