@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<predictions>
+<predictions xmlns="https://www.playitaCorra.com/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://www.playitaCorra.com/ XmlSchema_playita.xsd">
     <prediction>
         <day>20200403</day>
         <sky_state>
@@ -20,13 +22,13 @@
             <f2>310</f2>
             <descripcion2>débil</descripcion2>
         </surge>
-        <t_max/>
+        <t_max>21</t_max>
         <s_thermal>
             <f1>310</f1>
             <descripcion1>suave</descripcion1>
         </s_thermal>
-        <t_water/>
-        <uv_max/>
+        <t_water>20</t_water>
+        <uv_max>8</uv_max>
     </prediction>
     <prediction>
         <day>20200404</day>
@@ -48,13 +50,13 @@
             <f2>310</f2>
             <descripcion2>débil</descripcion2>
         </surge>
-        <t_max/>
+        <t_max>23</t_max>
         <s_thermal>
             <f1>310</f1>
             <descripcion1>suave</descripcion1>
         </s_thermal>
-        <t_water/>
-        <uv_max/>
+        <t_water>19</t_water>
+        <uv_max>8</uv_max>
     </prediction>
     <prediction>
         <day>20200405</day>
@@ -76,12 +78,12 @@
             <f2>310</f2>
             <descripcion2>débil</descripcion2>
         </surge>
-        <t_max/>
+        <t_max>23</t_max>
         <s_thermal>
             <f1>310</f1>
             <descripcion1>suave</descripcion1>
         </s_thermal>
-        <t_water/>
-        <uv_max/>
+        <t_water>20</t_water>
+        <uv_max>9</uv_max>
     </prediction>
 </predictions>

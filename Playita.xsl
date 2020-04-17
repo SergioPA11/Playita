@@ -4,7 +4,9 @@
     <xsl:output method="xml"/>
 
     <xsl:template match="/">
-        <predictions>
+        <predictions  xmlns="https://www.playitaCorra.com/"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="https://www.playitaCorra.com/ XmlSchema_playita.xsd">
             <xsl:for-each select="/playa/prediccion/dia">
                 <prediction>
                     <day>
@@ -53,7 +55,7 @@
                         </descripcion2>
                     </surge>
                     <t_max>
-                        <xsl:value-of select="@valor1"/>
+                        <xsl:value-of select="t_maxima/@valor1"/>
                     </t_max>
                     <s_thermal>
                         <f1>
@@ -64,10 +66,10 @@
                         </descripcion1>
                     </s_thermal>
                     <t_water>
-                        <xsl:value-of select="@valor1"/>
+                        <xsl:value-of select="t_agua/@valor1"/>
                     </t_water>
                     <uv_max>
-                        <xsl:value-of select="@valor1"/>
+                        <xsl:value-of select="uv_max/@valor1"/>
                     </uv_max>
                 </prediction>
             </xsl:for-each>

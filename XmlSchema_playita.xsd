@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.playitaCorra.com/"
+           xmlns="https://www.playitaCorra.com/"
+           elementFormDefault="qualified">
+
+    <xs:element name="predictions" type="predictions-type"/>
+    
+    <xs:complexType name="predictions-type">
+        <xs:sequence>
+            <xs:element name="prediction" maxOccurs="unbounded" type="prediction-type"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="prediction-type">
+        <xs:sequence>
+            <xs:element name="day" type="xs:integer"/>
+            <xs:element name="sky_state" type="sky_state-type"/>
+            <xs:element name="wind" type="wind-type"/>
+            <xs:element name="surge" type="surge-type"/>
+            <xs:element name="t_max" type="xs:integer"/>
+            <xs:element name="s_thermal" type="s_thermal-type"/>
+            <xs:element name="t_water" type="xs:integer"/>
+            <xs:element name="uv_max" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="sky_state-type">
+        <xs:sequence>
+            <xs:element name="f1" type="xs:integer"/>
+            <xs:element ref="descripcion1"/>
+            <xs:element name="f2" type="xs:integer"/>
+            <xs:element ref="descripcion2"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="wind-type">
+        <xs:sequence>
+            <xs:element name="f1" type="xs:integer"/>
+            <xs:element ref="descripcion1"/>
+            <xs:element name="f2" type="xs:integer"/>
+            <xs:element ref="descripcion2"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="surge-type">
+        <xs:sequence>
+            <xs:element name="f1" type="xs:integer"/>
+            <xs:element ref="descripcion1"/>
+            <xs:element name="f2" type="xs:integer"/>
+            <xs:element ref="descripcion2"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="s_thermal-type">
+        <xs:sequence>
+            <xs:element name="f1" type="xs:integer"/>
+            <xs:element ref="descripcion1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="descripcion1" type="descripcion-type"/>
+    <xs:element name="descripcion2" type="descripcion-type"/>
+    
+    <xs:simpleType name="descripcion-type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="muy nuboso"/>
+            <xs:enumeration value="despejado"/>
+            <xs:enumeration value="flojo"/>
+            <xs:enumeration value="débil"/>
+            <xs:enumeration value="suave"/>
+            <xs:enumeration value="nuboso"/>
+            <xs:enumeration value="moderado"/>
+            <xs:enumeration value="fuerte"/>
+            <xs:enumeration value="muy fuerte"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
