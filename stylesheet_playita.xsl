@@ -9,7 +9,8 @@
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-                version="1.0">
+                version="1.0"
+                xmlns:x="https://www.playitaCorra.com/">
     <xsl:output method="html"/>
 
     <xsl:template match="/">
@@ -38,32 +39,6 @@
                     <table class="table" >
                         <thead>
                             <tr>
-                                <th colspan="4" class="my-center">DAY</th>
-                                <th colspan="4" class="my-center">SKY STATE</th>
-                                <th colspan="4" class="my-center">WIND</th>
-                                <th colspan="4" class="my-center">SURGE</th>
-                                <th colspan="4" class="my-center">T MAX</th>
-                                <th colspan="4" class="my-center">S THERMAL</th>
-                                <th colspan="4" class="my-center">T WATER</th>
-                                <th colspan="4" class="my-center">UV MAX</th>
-                            </tr>
-                            <tr>
-                                <th>DAY</th>
-                                <th>SKY STATES</th>
-                                <th>WIND</th>
-                                <th>SURGE</th>
-                                <th>T MAX</th>
-                                <th>S THERMAL</th>
-                                <th>T WATER</th>
-                                <th>UV MAX</th>
-                                <th>DAY</th>
-                                <th>SKY STATES</th>
-                                <th>WIND</th>
-                                <th>SURGE</th>
-                                <th>T MAX</th>
-                                <th>S THERMAL</th>
-                                <th>T WATER</th>
-                                <th>UV MAX</th>
                                 <th>DAY</th>
                                 <th>SKY STATES</th>
                                 <th>WIND</th>
@@ -75,38 +50,38 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <xsl:for-each select="/predictions/prediction">
+                            <xsl:for-each select="/x:predictions/x:prediction">
                                 <tr>
                                     <td>
-                                        <xsl:value-of select="prediction/day"/>
+                                        <xsl:value-of select="x:day"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="sky_state"/>
+                                        <xsl:value-of select="x:sky_state"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="wind"/>
+                                        <xsl:value-of select="x:wind"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="surge"/>
+                                        <xsl:value-of select="x:surge"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="t_max"/>
+                                        <xsl:value-of select="x:t_max"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="s_thermal"/>
+                                        <xsl:value-of select="x:s_thermal"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="t_water"/>
+                                        <xsl:value-of select="x:t_water"/>
                                     </td>
                                     
                                     <td>
-                                        <xsl:value-of select="uv_max"/>
+                                        <xsl:value-of select="x:uv_max"/>
                                     </td>
                                 </tr>
                             </xsl:for-each>
