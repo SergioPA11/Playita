@@ -12,17 +12,19 @@ The next 3 days:
 2020/04/05
 
 ## VERSION 1 Proyect XML
-XML-> https://github.com/SergioPA11/Playita/blob/master/Playita.xml
+* [XML](https://github.com/SergioPA11/Playita/blob/master/Playita.xml)
 
-XSL-> https://github.com/SergioPA11/Playita/blob/master/Playita.xsl
+* [XSL](https://github.com/SergioPA11/Playita/blob/master/Playita.xsl)
 
 ## VERSION 2 Proyect XML
-XSL -> https://github.com/SergioPA11/Playita/blob/master/stylesheet_playita.xsl
-<In the transformation it does not capture the complete code>
+* [XSL](https://github.com/SergioPA11/Playita/blob/master/stylesheet_playita.xsl)
 
-XSD -> https://github.com/SergioPA11/Playita/blob/master/XmlSchema_playita.xsd
+* [HTML](https://github.com/SergioPA11/Playita/blob/master/Playita_output.html)
 
-XML Transformation-> https://github.com/SergioPA11/Playita/blob/master/Playita_output.xml
+* [XSD](https://github.com/SergioPA11/Playita/blob/master/XmlSchema_playita.xsd)
+
+* [XML Transformation](https://github.com/SergioPA11/Playita/blob/master/Playita_output.xml)
+
 ## Link Original
 Link -> http://www.aemet.es/xml/playas/play_v2_3501402.xml
 
