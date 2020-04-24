@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-    Document   : stylesheet_playita.xsl
-    Created on : 16 de abril de 2020, 16:40
-    Author     : Sergio
+    Document   : playitaxsl2.xsl
+    Created on : 24 de abril de 2020, 16:36
+    Author     : sergi
     Description:
         Purpose of transformation follows.
 -->
@@ -44,9 +44,6 @@
                                 <th>WIND</th>
                                 <th>SURGE</th>
                                 <th>T MAX</th>
-                                <th>S THERMAL</th>
-                                <th>T WATER</th>
-                                <th>UV MAX</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -72,17 +69,6 @@
                                         <xsl:value-of select="x:t_max"/>
                                     </td>
                                     
-                                    <td>
-                                        <xsl:value-of select="x:s_thermal"/>
-                                    </td>
-                                    
-                                    <td>
-                                        <xsl:value-of select="x:t_water"/>
-                                    </td>
-                                    
-                                    <td>
-                                        <xsl:value-of select="x:uv_max"/>
-                                    </td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>
@@ -94,3 +80,4 @@
     </xsl:template>
 
 </xsl:stylesheet>
+
