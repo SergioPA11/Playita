@@ -33,7 +33,9 @@ The next 3 days:
 
 ### HOSTING FIREBASE
 
-* [Firebase](
+* [Firebase Hosting Playita](https://playita-70a1b.web.app/Playita_output.html)
+
+* [Firebase Hosting Playita2](https://playita-70a1b.web.app/Playita2_output.html)
 
 ## Link Original
 * [Link](http://www.aemet.es/xml/playas/play_v2_3501402.xml)
