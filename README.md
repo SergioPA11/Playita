@@ -25,9 +25,21 @@ The next 3 days:
 
 * [XML Transformation](https://github.com/SergioPA11/Playita/blob/master/Playita_output.xml)
 
+## VERSION 3 Proyect XML
+
+* [HTML SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/Playita2_output.html)
+
+* [XSL SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/playitaxsl2.xsl)
+
+### HOSTING FIREBASE
+
+* [Firebase](
+
 ## Link Original
 * [Link](http://www.aemet.es/xml/playas/play_v2_3501402.xml)
 
 ## Construido con
 
 * [Netbeans](https://netbeans.org/) - IDE
+
+* [Firebase](https://firebase.google.com/?hl=es) - Hosting
