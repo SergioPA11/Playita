@@ -31,6 +31,14 @@ The next 3 days:
 
 * [XSL SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/playitaxsl2.xsl)
 
+## VERSION 4 Proyect XML
+
+* [HTML](https://github.com/SergioPA11/Playita/blob/master/public/Playita.html)
+
+* [JS](https://github.com/SergioPA11/Playita/blob/master/public/JS/Playita.js)
+
+* [XSL](https://github.com/SergioPA11/Playita/blob/master/public/XSL/Playita.xsl)
+
 ### HOSTING FIREBASE
 
 * [Firebase Hosting Playita](https://playita-70a1b.web.app/Playita_output.html)
