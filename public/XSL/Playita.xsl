@@ -8,21 +8,14 @@
         <thead>
           <tr>
             <th>DAY</th>
-<<<<<<< HEAD
-=======
-            <th>PREDICTED LEVEL</th>
->>>>>>> 1a8ea2f... Final Version
+            <th>PREDICTED</th>
             <th>BEACH NAME</th>
             <th>LATITUDE</th>
             <th>LONGITUDE</th>
           </tr>
         </thead>
         <tbody>
-<<<<<<< HEAD
-          <xsl:for-each select="/responce/row/row">
-=======
-          <xsl:for-each select="response/row/row">
->>>>>>> 1a8ea2f... Final Version
+          <xsl:for-each select="/response/row/row">
             <tr>
               <td>
                 <xsl:value-of select="date"/>
