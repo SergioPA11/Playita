@@ -19,7 +19,7 @@ The next 3 days:
 ## VERSION 2 Proyect XML
 * [XSL](https://github.com/SergioPA11/Playita/blob/master/stylesheet_playita.xsl)
 
-* [HTML](https://github.com/SergioPA11/Playita/blob/master/Playita_output.html)
+* [HTML](https://github.com/SergioPA11/Playita/blob/master/public/Playita_output.html)
 
 * [XSD](https://github.com/SergioPA11/Playita/blob/master/XmlSchema_playita.xsd)
 
@@ -27,7 +27,7 @@ The next 3 days:
 
 ## VERSION 3 Proyect XML
 
-* [HTML SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/Playita2_output.html)
+* [HTML SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/public/Playita2_output.html)
 
 * [XSL SECOND TRANSFORM](https://github.com/SergioPA11/Playita/blob/master/playitaxsl2.xsl)
 
@@ -44,6 +44,8 @@ The next 3 days:
 * [Firebase Hosting Playita](https://playita-70a1b.web.app/Playita_output.html)
 
 * [Firebase Hosting Playita2](https://playita-70a1b.web.app/Playita2_output.html)
+
+* [Firebase Hosting Playita JS](https://playita-70a1b.web.app/Playita.html)
 
 ## Link Original
 * [Link](http://www.aemet.es/xml/playas/play_v2_3501402.xml)
