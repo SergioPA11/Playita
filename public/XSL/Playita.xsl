@@ -15,7 +15,7 @@
           </tr>
         </thead>
         <tbody>
-          <xsl:for-each select="/response/row/row">
+          <xsl:for-each select="response/row/row">
             <tr>
               <td>
                 <xsl:value-of select="date"/>
